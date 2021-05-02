@@ -1,5 +1,3 @@
-import java.math.BigDecimal;
-
 public class Calculator {
 
     public int addition(int x, int y){
@@ -15,7 +13,4 @@ public class Calculator {
         return x * y;
     }
 
-    public BigDecimal division(BigDecimal x, BigDecimal y){
-        return     x.divide(y);
-    }
 }
